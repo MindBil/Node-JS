@@ -1,0 +1,10 @@
+{
+    "title": "This is 1-p-cao tasks title",
+    "version": "0.1",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "casual": "^1.6.2"
+    }
+}
