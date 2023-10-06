@@ -6,8 +6,10 @@ app.use(cors());
 
 const port = 3000;
 
+const cars = ["BMW", "VW", "Audi"];
+
 app.get("/", (req, res) => {
-    res.send("Server is working");
+    res.send(cars);
 });
 
 app.listen(port, () => {
